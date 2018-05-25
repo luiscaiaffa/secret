@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48ed3f7d-42bb-42c3-adef-4d16a8ce4960" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/api/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/authentication/dev.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/authentication/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/client/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/client/gridfs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/client/mongo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/client/standalone/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/client/standalone/mongo_GridFs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/client/standalone/mongo_connection.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/app/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseA/run.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/client/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/client/gridfs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/client/mongo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/client/standalone/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/client/standalone/mongo_GridFs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/client/standalone/mongo_connection.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/app/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseB/run.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/client/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/client/gridfs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/client/mongo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/client/standalone/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/client/standalone/mongo_GridFs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/client/standalone/mongo_connection.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/app/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/baseC/run.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/authentication/Dockerfile" afterPath="$PROJECT_DIR$/authentication/Dockerfile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,21 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authentication/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="486">
+              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -197,8 +152,8 @@
         <option value="$PROJECT_DIR$/authentication/authentication/prod.py" />
         <option value="$PROJECT_DIR$/authentication/manage.py" />
         <option value="$PROJECT_DIR$/authentication/authentication/wsgi.py" />
-        <option value="$PROJECT_DIR$/authentication/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/authentication/Dockerfile" />
       </list>
     </option>
   </component>
@@ -701,10 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/authentication/prod.py">
+    <entry file="file://$PROJECT_DIR$/authentication/authentication/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="13" column="97" lean-forward="false" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
           <folding />
         </state>
       </provider>
@@ -717,26 +672,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/authentication/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/authentication/authentication/prod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="97" lean-forward="false" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="486">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
