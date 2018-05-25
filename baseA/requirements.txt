@@ -1,0 +1,4 @@
+sanic==0.7.0
+pycpfcnpj==1.4
+sanic-mongo==1.7.1
+gunicorn==19.8.1
