@@ -1,10 +1,11 @@
 FROM python:3.6
 
-ENV DB_NAME =
-ENV DB_USER =
-ENV DB_PASSWORD =
-ENV DB_HOST =
-ENV DB_PORT =
+ENV DB_NAME postgres
+ENV DB_USER postgres
+ENV DB_HOST secret_db2_1
+ENV DB_PORT 5432
+ENV CONFIG dev
+ENV DEBUG True
 
 ADD . /authentication
 WORKDIR /authentication

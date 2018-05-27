@@ -7,5 +7,7 @@ urlpatterns = [
     path('token/', obtain_jwt_token),
     path('refresh/', refresh_jwt_token),
     path('verify/', verify_jwt_token),
-    path('user/', views.ListUsers.as_view()),
+    path('basea/<str:cpf>/', views.BaseA.as_view()),
+    path('baseb/<str:cpf>/', views.BaseB.as_view()),
+    path('basec/<str:cpf>/', views.BaseC.as_view()),
 ]

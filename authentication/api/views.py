@@ -3,10 +3,31 @@ from rest_framework.response import Response
 from rest_framework import authentication, permissions
 from django.contrib.auth.models import User
 
+import requests
 
-class ListUsers(APIView):
 
-    def get(self, request, format=None):
+class BaseA(APIView):
 
-        usernames = [user.username for user in User.objects.all()]
-        return Response(usernames)
+    def get(self, request, *args, **kwargs):
+        cpf = self.kwargs['cpf']
+        url = f'http://secret_web_1:8001/{cpf}/'
+        r = requests.get(url)
+        return Response(r.json(), r.status_code)
+
+
+class BaseB(APIView):
+
+    def get(self, request, *args, **kwargs):
+        cpf = self.kwargs['cpf']
+        url = f'http://secret_web_1:8001/{cpf}/'
+        r = requests.get(url)
+        return Response(r.json(), r.status_code)
+
+
+class BaseC(APIView):
+
+    def get(self, request, *args, **kwargs):
+        cpf = self.kwargs['cpf']
+        url = f'http://secret_web_1:8001/{cpf}/'
+        r = requests.get(url)
+        return Response(r.json(), r.status_code)
